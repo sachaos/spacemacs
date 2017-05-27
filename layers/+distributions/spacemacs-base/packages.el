@@ -29,7 +29,6 @@
         ;; which means the path must be ready by then
         (exec-path-from-shell :step pre
                               :toggle (or (spacemacs/system-is-mac)
-                                          (spacemacs/system-is-linux)
                                           (eq window-system 'x)))
         help-fns+
         (hi-lock :location built-in)
